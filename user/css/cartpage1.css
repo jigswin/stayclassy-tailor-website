@@ -1,0 +1,68 @@
+
+.cart-page{
+	margin:8rem auto;
+	font-size: 1.6rem;
+
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+.cart-info{
+	display: flex;
+	flex-wrap: wrap;
+}
+th{
+	text-align: left;
+	padding: .5rem;
+	color:white;
+	background-color:black;
+	font-weight: normal;
+}
+td{
+	padding: 1rem .5rem;
+}
+
+td a{
+	font-size: 1.5rem;
+	color: #ff523b;
+	text-decoration: none;
+}
+td #pro_img{
+	width: 20rem;
+	height: 20rem;
+	margin-right: 2rem;
+}
+td #pat_img{
+	width: 10rem;
+	height: 10rem;
+
+	
+}
+.total-price{
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+}
+.total-price table{
+	border-top: .3rem solid #ff523b;
+	
+	
+}
+td:last-child{
+	text-align: center;
+}
+th:last-child{
+	text-align: center;
+}
+#checkbtn #continue{
+	margin-bottom: 3rem;
+	font-size: 2rem;
+	
+}
+#checkbtn   button{
+	font-size: 2rem;
+	padding-left: 10rem;
+	padding-right: 10rem;
+	margin-bottom: 3rem;
+}

@@ -1,0 +1,87 @@
+/*------------------------------all products--------------------------------------*/
+.col-3{
+	flex-basis: 25%;
+	min-width: 20rem;
+	margin-bottom: 5rem;
+	padding: 1rem;
+	transition: transform 0.5s;
+
+}
+.col-3 img{
+	width: 100%;
+	height: 35rem;
+
+}
+.container{
+	max-width: 120rem;
+	margin: auto;
+	margin-top: 10rem;
+	/*padding-left: 2.5rem;
+	padding-right: 2.5rem;
+	*/
+}
+.title{
+	text-align: center;
+	margin: 0 auto 8rem;
+	position: relative;
+	line-height: 1rem;
+	color: #555;
+	font-size: 4rem;
+	word-spacing: 1rem;
+}
+h3{
+	color: #555;
+	font-weight: normal;
+}
+.col-3 p{
+	font-size: 1.8rem;
+}
+.col-3:hover{
+	transform: translateY(-.5rem);
+}
+.page-btn{
+	margin: 0 auto 8rem;
+
+}
+.page-btn span{
+	display: inline-block;
+	border: .1rem solid #ff523b;
+	margin-left: 1rem;
+	width: 4rem;
+	height: 4rem;
+	text-align: center;
+	line-height: 4rem;
+	cursor: pointer;
+	font-weight: bolder;
+	font-size: 1.8rem;
+}
+.page-btn span:hover{
+	background-color:#ff523b;;
+	color: black;
+}
+
+div a button{
+	font-size: 2rem;
+	padding-left: 10rem;
+	padding-right: 10rem;
+	margin-bottom: 10rem;
+}
+
+
+/*------------------------------------------media query---------------------------------*/
+@media only screen and (max-width:992px){
+	#allproduct{
+		text-align: center;
+	}
+	#allproduct .col-3{
+		flex-basis: 50%;
+	}
+} 
+@media only screen and (max-width:450px){
+	#allproduct{
+		text-align: center;
+	}
+	#allproduct .col-3{
+		flex-basis: 100%;
+	}
+} 

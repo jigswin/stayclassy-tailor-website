@@ -1,0 +1,15 @@
+ #container1{
+ 	margin-top: rem;
+ 	margin-bottom: 8rem;
+ }
+
+ .container label{
+	font-size: 2rem;
+	margin-top: 2rem;
+}
+.container input{
+	font-size: 2rem;
+}
+.container select{
+	font-size: 2rem;
+}

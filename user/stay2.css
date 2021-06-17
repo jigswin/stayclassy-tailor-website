@@ -1,0 +1,135 @@
+ .shop2{
+    display: none;
+   }
+
+ #shop2_1{
+ 	font-size: 1.3rem;
+ 	color: grey;
+ 	margin-left: .8rem;
+ }
+ .hoverme:hover .shop2{
+ 	position: absolute;
+ 	display: block;
+ 	margin-left: 13rem;
+ 	margin-top: -2rem;
+ 	background-color: white;
+ }
+
+
+
+ /*------------------------------------responsive navbar start here------------------------------------*/
+
+ /* The sidebar menu */
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: white; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 6rem; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding-left:1rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+  display: block;
+  transition: 0.3s;
+  line-height: 5rem;
+
+}
+.sidebar ul li{
+  padding-left:.2rem;
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.5rem;
+  color: black;
+  display: block;
+  transition: 0.3s;
+  line-height: 4rem;
+  font-weight: bolder;
+
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 2.5rem;
+  font-size: 3.6rem;
+  margin-left: 5rem;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 1.5rem;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  padding: 1rem 1.5rem;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 2rem;
+}
+#subdrop li a{
+	margin-left: 3rem;
+	}
+	
+
+	#plusbtn{
+		position: absolute;
+		top:17.8rem;
+		left:10rem;
+	}
+#plusbtn1{
+		position: absolute;
+		top:22.7rem;
+		left:20rem;
+	}
+	#plusbtn2{
+		position: absolute;
+		top:27.7rem;
+		left:20rem;
+	}
+	#plusbtn3{
+		position: absolute;
+		top:32.7rem;
+		left:20rem;
+	}
+	#subdrop{
+		display:none ;
+	}
+	#subdrop1{
+		display: none;
+	}
+	#subdrop.show{
+		display: block;
+	}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 1.5rem;}
+  .sidebar a {font-size: 1.8rem;}
+  .sidebar ul li {font-size: 1.8rem;}
+}
+

@@ -1,0 +1,898 @@
+
+/*------------------------------------------header start here--------------------------------------------*/
+
+		*{
+				padding: 0;
+				margin: 0;
+				box-sizing: border-box;
+				font-family: times new roman;
+		 }
+		 
+		html{
+        font-size: 62.5%;
+     }
+		 .Shipping{
+		 	text-align:center;
+		 	font-size:1.8rem;
+		 	color:white;
+		 	background-color:black;
+		 	height:4rem;
+		 	font-weight:bold;
+		 	padding-top:.7rem;
+		 	}
+		 	.navicon{
+		 		list-style: none;
+		 		display: flex;
+		 		box-sizing: border-box;
+		 		padding-left:75vw;
+		 		margin-top: -7.5rem; 
+		 	}
+
+		 	.navicon li{
+
+		 		padding-right:2rem;
+		 		font-size:2rem;
+		 	}
+		 	.navicon li a{
+		 		color: black;
+		 		text-decoration: none;
+		 	}
+		 	.navicon li a:hover{
+		 		color: grey;
+		 		
+		 	}
+		 	
+		 	#menubar1{
+		 		display:none;
+		 	}
+
+		 	.logo{
+		 		text-align:center;
+		 		box-sizing:border-box;
+		 		margin-bottom:6rem;
+		 		margin-top:1rem;
+		 	}
+		 	.stay{
+		 		font-size:5rem;
+		 		text-decoration:underline;
+		 		font-weight:bolder;
+		 	}
+		 	.choice{
+		 		position:relative;
+		 		font-size:3rem;
+		 		top:-1.9rem;
+		 		font-weight:bolder;
+		 	}
+
+
+
+		 	.menubar{
+		 				background:white;
+		 				text-align:center;
+		 				margin-top:-1rem;
+		 				border:.1rem solid lightblue;
+		 			}
+		 			.menubar ul{
+		 				display: inline-flex;
+		 				list-style: none;
+		 				color: black;
+		 				font-family: time new roman;
+		 				font-weight: bolder;
+		 				padding-top: .5rem;
+		 			}
+		 			.menubar ul li{
+		 				width: 12rem;
+		 				padding-top: .5rem;
+		 			}
+		 			.menubar ul li a{
+		 				font-size:1.3rem;
+		 				text-decoration:none;
+		 				color:#686868;
+		 			}
+		 			.menubar ul li a:hover{
+		 				color: black;
+		 			}
+		 			.menubar .fa{
+		 				margin-left:.3rem;
+		 			}
+		 			.shop1{
+		 				display: none;
+		 			}
+		 			.menubar ul li:hover .shop1{
+		 				display:block;
+		 				position:absolute;
+		 				background-color:white;
+		 				border:.2rem solid rgba(215,240,242,0.3);
+		 				border-top:none;
+		 				color:#686868;
+		 				font-size:1.3rem;
+		 				font-family:times new roman;
+		 				margin-top:.1rem;
+		 				margin-left:-1rem;
+		 				z-index:1;
+		 			}
+		 			.menubar ul li:hover .shop1 ul{
+		 				display:block;
+		 				margin: .8rem;
+		 			}
+		 			.menubar ul li:hover .shop1 ul li{
+		 				font-size: 1rem;
+		 				width: 15rem;
+		 				padding: 1rem;
+		 				text-align: left;
+		 			}
+		 			.menubar ul li:hover .shop1 ul li a:hover{
+		 				color: black;
+		 			}
+
+
+ 
+
+
+/*----------------------------------------inner dropdown menu start here-------------------------------*/
+
+
+		#innerdrop{
+			
+			padding-top:3rem;
+			padding-bottom:3rem;
+			background-color:rgb(236,240,241);
+
+		}
+		#innerdrop1{
+			font-size:4rem;
+			
+
+		}
+		#innerdrop2{
+			margin-top: 1rem;
+			font-size:1.5rem;
+		
+		}
+
+/*--------------------------------registration page and login page start here-----------------------------------------*/
+
+	#regist1{
+		font-size: 4rem;
+		padding-bottom: 6rem;
+		
+		
+	}
+	#regist1 .fa{
+		font-size: 3.7rem;
+		margin-right: 1rem;
+	}
+	#text1{
+		font-size: 2rem;
+		margin-bottom: 3rem;
+	}
+	#text1 input{
+		font-size: 1.8rem;
+	}
+	#emailHelp{
+		font-size: 1.5rem;
+
+	}
+	#regist2{
+		font-size: 4rem;
+		padding-bottom: 2rem;
+
+	}
+	#registdetail{
+		font-size: 1.8rem;
+		margin-bottom: 2rem;
+		margin-top: 4rem;
+		padding: 0 4rem 0 4rem;	
+	}
+	#loginbutton{
+		width: 15rem;
+		padding: .5rem;
+		font-size: 1.8rem;
+	}
+	#submitbutton{
+		padding: .5rem;
+		font-size: 2rem;
+	}
+	#forgot{
+		margin-left: 24vw;
+		position: relative;
+		top: -2rem;
+
+	}
+	#forgot a{
+		color: black;
+		font-size: 1.7rem;
+	}
+	
+
+
+/*----------------------------------fearured product start here--------------------------------*/
+
+
+					#slider{
+						height: 50rem;
+						width: 100vw;
+					}	
+
+					.featured{
+						font-size: 2.8rem;
+						font-family: times new roman;
+						text-align: center;
+						margin-top: 6rem;
+					}
+					#cross{
+						position: relative;
+						color: lightblue;
+						font-size: 2rem;
+						top:-.4rem;
+					}
+					#linex1{
+						position: relative;
+						color: lightblue;
+						top: -1rem;
+						right: .2rem;
+					}
+					#linex2{
+						color: lightblue;
+						position: relative;
+						top: -1rem;
+						left: .2rem;
+					}
+					#proset{
+						margin-top: 4.5rem;
+						margin-bottom: 2rem;
+					}
+
+
+/*------------------------------------------contact us start here--------------------------------------------*/
+#contacticon{
+	font-size: 2rem;
+	padding-left: 17vw;
+	margin-top: 4rem;
+	margin-bottom: 5rem;
+	font-style: italic;
+	
+}
+
+#contacticon a{
+	color: grey;
+	text-decoration: none;
+	padding-left: 1vw;
+}
+#contacticon a:hover {
+	color: black;
+}
+#contplane{
+	font-size: 4rem;
+	
+}
+#contnum{
+	font-size: 1.5rem;
+	position: relative;
+	padding-left: .8rem;
+	top:-2rem;
+}
+#contemail{
+	font-size: 1.5rem;
+	padding-left: 5rem;
+	position: relative;
+	top:-2rem;
+}
+#contadd{
+	font-size: 1.5rem;
+	padding-left: .8rem;
+	position: relative;
+	top:-1rem;
+}
+#contactform{
+	margin-top: 3rem;
+}
+#conform1{
+	font-size: 2rem;
+	padding:1.5rem;
+	box-sizing: border-box;
+}
+#contbutton{
+	text-decoration: none;
+	color: white;
+	margin-left: 1.2rem;
+
+}
+#contbutton{
+	padding-left: 3rem;
+	padding-right:3rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	font-size: 1.5rem; 
+	margin-bottom: 4rem;
+
+}
+#conform1 input{
+	font-size: 1.8rem;
+}
+#conform1 textarea{
+	font-size: 1.8rem;
+}
+
+
+/*--------------------------------------------footer start here------------------------------------------*/
+
+
+		#icon{
+			padding-top: 4rem;
+			padding-bottom: 4rem;
+			box-sizing:border-box;
+		}
+		#icon3{
+			font-size: 3rem;
+		}
+		.icon2{
+			padding-top: .4rem;
+			font-size: 1.8rem;
+		}
+
+		.lastarea{
+			width: 100vw;
+			background-color: black;
+			color: white;
+		}
+		#laststay{
+			position: relative;
+			top: 6rem;
+			letter-spacing: .2rem;
+			font-size: 4.5rem;
+			font-family:times new roman;
+			font-weight: bolder;
+			color: white;
+			text-decoration: underline;
+			line-height: 4.5rem;
+		}
+
+		#lastchoice{
+			position: relative;
+			font-size: 2.5rem;
+			letter-spacing: .2rem;
+			top: 5.4rem;
+			font-family: times new romam;
+			font-weight: bolder;
+			color: white;
+		}
+		#uldesign{
+			margin-top: 18rem;
+		}
+		#uldesign ul a li{
+			list-style: none;
+			color: grey;
+		}
+		#uldesign ul a li:hover{
+			color: white;
+		}
+		#uldesign ul a{
+			text-decoration: none;
+		}
+		#uldesign ul li{
+			list-style: none;
+		}
+		#quick{
+			margin-bottom: 1.5rem;
+			font-size: 1.6rem;
+			font-weight: bolder;
+			font-family: times new roman;
+		}
+		#useful{
+			margin-bottom: 1.5rem;
+			font-size: 1.6rem;
+			font-family: times new roman;
+			font-weight: bolder;
+		}
+		#privacy{
+			position: relative;
+			margin-top: 1.5rem;
+			bottom: 1.5rem;
+
+			font-size: 1.6rem;
+			font-weight: bolder;
+			font-family: times new roman;
+		}
+		#atstore{
+			margin-bottom: 1.5rem;
+			font-size: 1.6rem;
+			font-weight: bolder;
+			font-family: times new roman;
+		}
+		#help{
+			margin-bottom: 1.5rem;
+			font-size: 1.6rem;
+			font-weight: bolder;
+			font-family: times new roman;
+			border-height:1rem;
+		}
+		#quick1{
+			position: relative;
+			top: .4rem;
+			font-size: 1.6rem;
+		}
+		#quick2{
+			position: relative;
+			top: 1.4rem;
+			font-size: 1.6rem;
+		}
+		#quick3{
+			position: relative;
+			top: 2.4rem;
+			font-size: 1.6rem;
+		}
+		#quick4{
+			position: relative;
+			top: 3.3rem;
+			font-size: 1.6rem;
+		}
+		#useful1{
+			position: relative;
+			top: .4rem;
+			line-height: 2rem;
+			font-size: 1.6rem;
+		}
+		#useful2{
+			position: relative;
+			top: 1.4rem;
+			font-size: 1.6rem;
+		}
+		#useful3{
+			position: relative;
+			top: 2.4rem;
+			font-size: 1.6rem;
+		}
+
+		.pri1{
+			position: relative;
+			top: .4rem;
+			font-size: 1.6rem;
+		}
+		.pri2{
+			position: relative;
+			top: 1.4rem;
+			font-size: 1.6rem;
+		}
+		.pri3{
+			position: relative;
+			top: 2.4rem;
+			font-size: 1.6rem;
+		}
+		.pri4{
+			position: relative;
+			top: 3.4rem;
+			font-size: 1.6rem;
+		}
+		#help1{
+			position: relative;
+			top: .2rem;
+			color: grey;
+			line-height: 2rem;
+			font-size: 1.6rem;
+		}
+		#help2{
+			position: relative;
+			top: 1.2rem;
+			color: grey;
+			font-size: 1.6rem;
+		}
+		#help3{
+			position: relative;
+			top: 2.2rem;
+			color: grey;
+			font-size: 1.6rem;
+		}
+		#atstore1 img{
+			height: 14rem;
+			width: 20rem;
+			margin-left: -1rem;
+			font-size: 1.4rem;
+
+		}
+
+		#atstore2{
+			position: relative;
+			top: .3rem;
+			color: grey;
+			line-height: 2rem;
+			font-size: 1.6rem;
+		}
+		#atstore3{
+			position: relative;
+			top: 8rem;
+			color: grey;
+			font-size: 1.4rem;
+		}
+		#insta{
+			color: grey;
+			position: relative;
+			top: 8rem;
+			font-size: 2rem;
+		}
+		#insta:hover{
+			color: pink;
+		}
+		#fb{
+			color: grey;
+			position: relative;
+			top: 8rem;
+			padding-left: .8rem;
+			font-size: 2rem; 
+		}
+		#fb:hover{
+			color: blue;
+		}
+		#pint{
+			color: gray;
+			position: relative;
+			padding-left: .8rem;
+			top: 8rem;
+			font-size: 2rem;
+		}
+		#pint:hover{
+			color: chocolate;
+		}
+		#mail{
+			color: grey;
+			position: relative;
+			padding-left: .8rem;
+			top: 8rem;
+			font-size: 2rem;
+		}
+		#mail:hover{
+			color: red;
+		}
+		
+		.card1{
+			height: 2.5rem;
+			width: 4rem;
+			margin-top: 1rem;
+			margin-left: .3rem;
+		}
+		.card2{
+			height: 2.6rem;
+			width: 4rem;
+			margin-top: 1rem;
+			margin-left: .3rem;
+		}
+		.card3{
+			height: 2.5rem;
+			width: 4rem;
+			margin-top: 1rem;
+			margin-left: .3rem;
+		}
+		.card4{
+			height: 2.5rem;
+			width: 4rem;
+			margin-top: 1rem;
+			margin-left: .3rem;
+		}
+		.card5{
+			height: 2.5rem;
+			width: 4rem;
+			margin-top: 1rem;
+			margin-left: .3rem;
+		}
+		#lastline{
+			height: .1rem;
+			width: 100vw;
+			border: .1rem solid silver;
+			background-color: silver;
+			margin-top: 6rem;
+		}
+		
+
+
+  /*------------------------------------------responsive start here--------------------------------------*/
+
+  @media (min-width: 991px) and (max-width: 1200px){
+
+  	.stay{
+  		font-size: 4rem;
+  	}
+  	.choice{
+  		font-size:2.5rem;
+  		top:-1.5rem;
+  	}
+  	.logo{
+  		margin-bottom: 4rem;
+  	}
+  	.navicon{
+  		padding-left: 73vw;
+  		margin-top: -6.5rem;
+  		font-size: 2rem;
+
+  	}
+  	.navicon li{
+  		padding-right: 2rem;
+  	}
+  }
+
+
+  @media (min-width: 767px) and (max-width: 991px){
+
+  	.stay{
+  		font-size: 3.5rem;
+  	}
+  	.choice{
+  		font-size:2.1rem;
+  		top:-1.5rem;
+  	}
+  	.logo{
+  		padding-right: 50vw;
+  		margin-bottom: 3.5rem;
+  	}
+  	.navicon{
+  		
+  		margin-top: -6.5rem;
+  		font-size: 2rem;
+
+  	}
+  	#menubar1{
+  		display: block;
+  	}
+  	#search{
+  		display: none;
+  	}
+  	#rs{
+  		
+  	}
+  	.menubar{
+  		display: none;
+  	}
+  	#sline{
+  		border-top:.2rem solid lightblue;
+  	}
+  	.lastarea{
+  		box-sizing: border-box;
+  	}
+  	#laststay{
+  		font-size: 3.4rem;
+  	}
+  	#lastchoice{
+  		font-size: 1.9rem;
+  		top:5rem;
+  	}
+  	#icon{
+  		box-sizing: border-box;
+  	}
+  	#uldesign{
+  		margin-top: 10rem;
+  	}
+  	#insta{
+  		top:6rem;
+  	}
+  	#mail{
+  		top:6rem;
+  	}
+  	#fb{
+  		top:6rem;
+  	}
+  	#pint{
+  		top:6rem;
+  	}
+  	.touchin{
+  		width:100vw;
+  		height:45rem;
+  		text-align: center;
+  		background-image: url(sli2.jpg);
+  		background-repeat: no-repeat;
+  		background-size: cover;
+  	}
+  	#keep{
+  		font-size: 6rem;
+  		padding-top: 8rem;
+  		color: white;
+  	}
+  	#news{
+  		font-size: 1.6rem;
+  		margin-top: 1.8rem;
+  		padding-right: 15rem;
+  		padding-left: 15rem;
+  		text-align: center;
+  		color: white;
+  	}
+
+  }
+
+
+  @media (min-width: 576px) and (max-width: 767px){
+
+  	.stay{
+  		font-size: 3rem;
+  	}
+  	.choice{
+  		font-size:1.8rem;
+  		top:-1.3rem;
+  	}
+  	.logo{
+  		padding-right: 50vw;
+  		margin-bottom: 3rem;
+  	}
+  	.navicon{
+  		
+  		margin-top: -5.5rem;
+  		font-size: 1.5rem;
+
+  	}
+  	#menubar1{
+  		display: block;
+  	}
+  	#search{
+  		display: none;
+  	}
+  	#rs{
+  		
+  	}
+  	.menubar{
+  		display: none;
+  	}
+  	#sline{
+  		border-top:.2rem solid lightblue;
+  	}
+  	.lastarea{
+  		box-sizing: border-box;
+  	}
+  	#laststay{
+  		font-size: 3.4rem;
+  	}
+  	#lastchoice{
+  		font-size: 1.9rem;
+  		top:5.1rem;
+  	}
+  	#icon{
+  		box-sizing: border-box;
+  	}
+  	#uldesign{
+  		margin-top: 10rem;
+  	}
+  	#mail{
+  		top:6rem;
+  	}
+  	#insta{
+  		top:6rem;
+  	}
+  	#fb{
+  		top:6rem;
+  	}
+  	#pint{
+  		top:6rem;
+  	}
+  	.touchin{
+  		width:100vw;
+  		height:45rem;
+  		text-align: center;
+  		background-image: url(sli2.jpg);
+  		background-repeat: no-repeat;
+  		background-size: cover;
+  	}
+  	#keep{
+  		font-size: 6rem;
+  		padding-top: 8rem;
+  		color: white;
+  	}
+  	#news{
+  		font-size: 1.6rem;
+  		margin-top: 1.8rem;
+  		padding-right: 15rem;
+  		padding-left: 15rem;
+  		text-align: center;
+  		color: white;
+  	}
+
+	
+}
+
+  
+
+  @media (max-width: 576px){
+
+  	.stay{
+  		font-size: 2.5rem;
+  	}
+  	.choice{
+  		font-size:1.5rem;
+  		top:-1rem;
+  	}
+  	.logo{
+  		padding-right: 46vw;
+  		margin-bottom: 2.5rem;
+  	}
+  	.navicon{
+  		padding-left: 68vw;
+  		margin-top: -5rem;
+  		font-size: 2rem;
+
+  	}
+  	.navicon li{
+  		padding-right: 1.5rem;
+  	}
+  	#menubar1{
+  		display: block;
+  	}
+  	#search{
+  		display: none;
+  	}
+  	#rs{
+  		
+  	}
+  	.menubar{
+  		display: none;
+  	}
+  	#sline{
+  		border-top:.2rem solid lightblue;
+  	}
+  	
+  	.lastarea{
+  		box-sizing: border-box;
+  	}
+  	#laststay{
+  		font-size: 3rem;
+  	}
+  	#lastchoice{
+  		font-size: 1.6rem;
+  		top:4.6rem;
+  	}
+  	#icon{
+  		box-sizing: border-box;
+  	}
+  	#uldesign{
+  		margin-top: 10rem;
+  	}
+  	#insta{
+  		top:6rem;
+  	}
+  	#mail{
+  		top:6rem;
+  	}
+  	#fb{
+  		top:6rem;
+  	}
+  	#pint{
+  		top:6rem;
+  	}
+  	.touchin{
+  		width:100vw;
+  		height:45rem;
+  		text-align: center;
+  		background-image: url(sli2.jpg);
+  		background-repeat: no-repeat;
+  		background-size: cover;
+  	}
+  	#keep{
+  		font-size: 4rem;
+  		padding-top: 8rem;
+  		color: white;
+  	}
+  	#news{
+  		font-size: 1.6rem;
+  		margin-top: 1.8rem;
+  		padding-right: 10rem;
+  		padding-left: 10rem;
+  		text-align: center;
+  		color: white;
+  	}
+
+  }
+						
+						
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
